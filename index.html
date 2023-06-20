@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Rozha+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e032a08cbe.js" crossorigin="anonymous"></script>
   </head>
+
 <body>
     
 
@@ -48,13 +49,13 @@
 
 
     <!-- Main -->
-    <section class="bg-color-main main">
+    <section class="bg-color-main bg-image-main main">
         <div class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
               <div class="col-10 col-sm-8 col-lg-5">
                 <img src="./images/profile-pic.JPG" class="profile-icon d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="500" loading="lazy">
               </div>
-              <div class="col-lg-7">
+              <div class="bg-box col-lg-7">
                 <h3 class="text-pink fw-bold lh-1 mb-3">Hello!</h3>
                 <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">I'm Gabby.</h1>
                 <p class="lead">I'm a full-stack developer and graphic designer. I love problem-solving and care about building software that is efficient, inuitive, and pleasing to the eye.</p>
@@ -74,8 +75,27 @@
         <div class="container">
             <h1 class="display-5 fw-bold lh-1 mb-3 text-pink py-3">Projects</h1>
 
-            <!-- Simon Game -->
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+              <!-- Art Portfolio -->
+              <div class="col">
+                <div class="card art-card">
+                    <img src="./images/slumber.jpg" alt="art portfolio" width="100%" height=""/>
+                  <div class="card-body">
+                    <h3 class="card-title">Art & Design Portfolio</h3>
+                    <hr class="mt-0"/>
+                    <p class="card-text">If you are interested in my design, illustration, and animation skills, please take a look at my art portfolio!</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div>
+                        <a href="https://drive.google.com/drive/folders/1mwy21rkC1VWqsCVK2k4WEi9Ho5Qhx5EM?usp=sharing" target="_blank" class="btn btn-sm btn-light"><i class="fa-solid fa-palette pe-2"></i>View</a>
+                      </div>
+                      <small class="text-body-secondary ms-2"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Simon Game -->
               <div class="col">
                 <div class="card">
                     <img src="./images/simon-game.png" alt="simon game" width="100%" height=""/>
