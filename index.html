@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gabby Albrecht</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- Other Stylesheet(s) & Fonts -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Rozha+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e032a08cbe.js" crossorigin="anonymous"></script>
+  </head>
+
+<body>
+    
+
+    <!-- Nav Bar -->
+    <section>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><i class="fa-solid fa-house"></i></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/gabby-albrecht/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/gibbub" target="_blank"><i class="fa-brands fa-github"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+
+
+    <!-- Main -->
+    <section class="bg-color-main bg-image-main main">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-5">
+                <img src="./images/profile-pic.JPG" class="profile-icon d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="500" loading="lazy">
+              </div>
+              <div class="bg-box col-lg-7">
+                <h3 class="text-pink fw-bold lh-1 mb-3">Hello!</h3>
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">I'm Gabby.</h1>
+                <p class="lead">I'm a full-stack developer and graphic designer. I love problem-solving and care about building software that is efficient, inuitive, and pleasing to the eye.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <a href="#projects" class="btn btn-pink btn-lg px-4 me-md-2">See my work<i class="bob fa-solid fa-arrow-down ps-2"></i></a>
+                  <a href="./docs/Resume.pdf" target="_blank" class="btn btn-outline-dark btn-lg px-4"><i class="fa-solid fa-file-pdf pe-2 text-pink"></i>Resume</a>
+                  <a href="#contact" class="btn btn-outline-dark btn-lg px-4"><i class="fa-solid fa-envelope pe-2"></i>Contact</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="p-5">
+        <div class="container">
+            <h1 class="display-5 fw-bold lh-1 mb-3 text-pink py-3">Projects</h1>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+
+              <!-- Art Portfolio -->
+              <div class="col">
+                <div class="card art-card">
+                    <img src="./images/slumber.jpg" alt="art portfolio" width="100%" height=""/>
+                  <div class="card-body">
+                    <h3 class="card-title">Art & Design Portfolio</h3>
+                    <hr class="mt-0"/>
+                    <p class="card-text">If you are interested in my design, illustration, and animation skills, please take a look at my art portfolio!</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div>
+                        <a href="https://drive.google.com/drive/folders/1mwy21rkC1VWqsCVK2k4WEi9Ho5Qhx5EM?usp=sharing" target="_blank" class="btn btn-sm btn-light"><i class="fa-solid fa-palette pe-2"></i>View</a>
+                      </div>
+                      <small class="text-body-secondary ms-2"></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Simon Game -->
+              <div class="col">
+                <div class="card">
+                    <img src="./images/simon-game.png" alt="simon game" width="100%" height=""/>
+                  <div class="card-body">
+                    <h3 class="card-title">Simon Game</h3>
+                    <hr class="text-pink mt-0"/>
+                    <p class="card-text">A memory game I built in 2023 using HTML and CSS. Functionality was acheived through JavaScript and jQuery. As a bonus, I added sprites and sound effects from Pokemon Red & Blue along with simple animations. Give it a try! </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div>
+                        <a href="https://gibbub.github.io/simon-game/" target="_blank" class="btn btn-sm btn-pink"><i class="fa-solid fa-play px-2"></i></a>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-end mt-2">
+                      <small class="text-body-secondary">HTML, CSS, JavaScript | jQuery</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- To-Do List -->
+              <div class="col">
+                <div class="card">
+                    <img src="./images/to-do-list.png" alt="sign learner" width="100%" height=""/>
+                  <div class="card-body">
+                    <h3 class="card-title">To-Do List</h3>
+                    <hr class="text-pink mt-0"/>
+                    <p class="card-text">A motivational to-do list app that allows you to add and delete tasks, and offers encouragement as you make progress! I built this app in 2023 using EJS, CSS, and JavaScript. It runs on a local server using Node.js. You can view the full code on GitHub, or play around with the static version below!</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div>
+                        <a href="https://gibbub.github.io/ToDo-List-Website/" target="_blank" class="btn btn-sm btn-pink"><i class="fa-solid fa-play px-2"></i></a>
+                        <a href="https://github.com/gibbub/ToDo-List" target="_blank" class="btn btn-sm btn-outline-pink"><i class="fa-brands fa-github px-2"></i>View on GitHub</a>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-end mt-2">
+                      <small class="text-body-secondary">HTML/EJS, CSS, JavaScript | Node.js</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Sign Learner -->
+              <div class="col">
+                <div class="card">
+                    <img src="./images/sign-learner.png" alt="sign learner" width="100%" height=""/>
+                  <div class="card-body">
+                    <h3 class="card-title">Sign Learner</h3>
+                    <hr class="text-pink mt-0"/>
+                    <p class="card-text"><i>Sign Learner</i> is an educational video game I built in 2022 along with 2 other students. The game teaches simple sign language through scavenger hunt-like gameplay. It was built entirely in C# through the Unity Engine, and Plastic SCM was used for version control.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div>
+                        <a href="https://youtu.be/Io_Ce9da5qM" target="_blank" class="btn btn-sm btn-outline-pink"><i class="fa-brands fa-youtube pe-2"></i>Video Demo</a>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-end mt-2">
+                      <small class="text-body-secondary">C# | Unity, Plastic SCM</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- Boardgame Generator -->
+              <div class="col">
+                <div class="card">
+                    <img src="./images/boardgame.png" alt="board game generator" width="100%" height=""/>
+                  <div class="card-body">
+                    <h3 class="card-title">Boardgame Generator</h3>
+                    <hr class="text-pink mt-0"/>
+                    <p class="card-text">A class-wide project for a team-based software engineering course I took in 2021. My role within my team was to build a functional game token editor as part of a boardgame generating app. The UI and functionality was built with a combination of Java and JavaFX.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div>
+                        <a href="https://youtu.be/275kkoktcM4" target="_blank" class="btn btn-sm btn-outline-pink"><i class="fa-brands fa-youtube pe-2"></i>Video Demo</a>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-end mt-2">
+                      <small class="text-body-secondary">Java | JavaFX</small>
+                    </div> 
+                  </div>
+                </div>
+              </div>
+
+              <!-- MSR Mining Challenge -->
+              <div class="col">
+                <div class="card">
+                    <img src="./images/smartshark.png" alt="smart shark logo" width="100%" height=""/>
+                  <div class="card-body">
+                    <h3 class="card-title">MSR Mining Challenge</h3>
+                    <hr class="text-pink mt-0"/>
+                    <p class="card-text">A research paper another student and I wrote in 2022 that analyzed the relationship between refactorings, bug fixes, and technical debt. Using MongoDB, I stored a SmartSHARK dataset provided by the Mining Software Repositories (MSR), containing over 40GB of data from various version control systems. We used Python for parsing and analyzing commit messages.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div>
+                        <a href="./docs/On the Relationship Between Technical Debt, Refactorings, and Bug Fixes.pdf" target="_blank" class="btn btn-sm btn-outline-pink"><i class="fa-solid fa-book-open pe-2"></i>Read More</a>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-end mt-2">
+                      <small class="text-body-secondary">Python | MongoDB</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+    </section>
+
+
+
+    <!-- Contact -->
+    <section id="contact" class="bg-color-main">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./images/me-graphic.png" class="gradient-bg d-block mx-lg-auto img-fluid" alt="cartoon of me" width="600" height="600" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Contact</h1>
+                <p class="lead">Have a question? Want to work with me?</p>
+                <p class="lead text-pink">Reach me here:</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <a href="mailto: galbrecht28@gmail.com" class="btn btn-pink btn-lg px-4 me-md-2"><i class="fa-solid fa-envelope pe-2"></i>galbrecht28@gmail.com</i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+                <p class="lead">More:</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <a href="https://www.linkedin.com/in/gabby-albrecht/" target="_blank" class="btn btn-outline-dark btn-lg px-4"><i class="fa-brands fa-linkedin pe-2"></i>LinkedIn</a>
+                    <a href="https://github.com/gibbub" target="_blank" class="btn btn-outline-dark btn-lg px-4"><i class="fa-brands fa-github pe-2"></i>GitHub</a>
+                </div>
+              </div>
+          </div>
+    </section>
+
+
+    <!-- Footer -->
+    <section class="bg-color-main">
+        <div class="container">
+            <footer class="footer mt-auto py-3">
+                <hr/>
+                <p class="text-center text-body-secondary ">2023 Gabby Albrecht</p>
+            </footer>
+          </div>
+    </section>
+
+
+</body>
+</html>
