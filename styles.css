@@ -79,6 +79,7 @@ p, small, h3, .btn, .btn-lg {
 .card img {
     border-radius: 3% 3% 0% 0%;
     padding: 2px;
+    /* max-height: 550px; */
 }
 
 
